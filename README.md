@@ -5,7 +5,7 @@
    - must be built with the same compiler which will be used in project,
    - under Windows all environment variables must be set correctly
      (i.e. OpenCV_DIR created and bin with dlls added do PATH).
-2. C++ compiler(MinGW, MSVC, Clang).
+2. Modern C++ compiler with C++14 standard support(MinGW, MSVC, Clang).
 3. Build automation program which is able to handle generated make file by CMake
 	(should be added to compiler's package and can be run with terminal or using IDE).
 4. CMake at least version 3.0.
