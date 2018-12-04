@@ -22,7 +22,9 @@ Examples for makefile generator above:
 	- Visual Studio 15 2017 Win64
 	- MinGW Makefiles
 	- Unix Makefiles
+	
 For non-unix systems make command should be changed to installed make builder like:
 	- mingw32-make
 	- nmake
+	
 If they are not found then bin files folder of chosen compiler's must be added to PATH environment variables.
