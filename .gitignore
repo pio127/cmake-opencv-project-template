@@ -1,0 +1,11 @@
+.idea
+build
+buildMinGW
+cmake-build-debug
+Debug
+
+.vs
+*.json
+*.sln
+*.vcxproj.*
+*.vcxproj
