@@ -27,4 +27,4 @@ For non-unix systems make command should be changed to installed make builder li
 - mingw32-make
 - nmake
 	
-If they are not found then bin files folder of chosen compiler's must be added to PATH environment variables.
+If there is a problem with make builder then probably compiler's bin folder must be added to PATH environment variables.
