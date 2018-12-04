@@ -1,6 +1,6 @@
 Quick setup for project using CMake and OpenCV.
 
-###Requirements:
+### Requirements:
 1. OpenCV
    - must be built with the same compiler which will be used in project,
    - under Windows all environment variables must be set correctly
