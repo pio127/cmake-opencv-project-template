@@ -1,4 +1,4 @@
-Quick setup for project using CMake and OpenCV.
+# Quick setup for project using CMake and OpenCV.
 
 ### Requirements:
 1. OpenCV
@@ -15,10 +15,10 @@ In other case CMake gui program or following commands should be used:
 ```
 mkdir build
 cd build
-cmake .. -G "nameOfMakefilesGenrator" 
+cmake .. -G "makefile generator" 
 make
 ```
-Examples for nameOfMakefilesGenrator:
+Examples for makefile generator above:
  - Visual Studio 15 2017 Win64
  - MinGW Makefiles
  - Unix Makefiles
