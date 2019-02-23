@@ -33,7 +33,7 @@ If CMake won't find OpenCV library it will try to use one obtained with Conan. I
 - MinGW Makefiles
 - Unix Makefiles
 	
-#### For non-unix systems make command should be changed to installed make builder like:
+#### For non-unix systems make command should be changed to installed build automation tool like:
 - mingw32-make
 - nmake
 	
