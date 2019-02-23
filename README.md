@@ -11,14 +11,23 @@
 4. CMake at least version 3.0.
 5. Optional Conan Package Manager.
 
-#### Building
-Building:
+#### Building:
 ```
 mkdir build
 cd build
 cmake .. -G "makefile generator" 
 cmake --build .
 ```
+
+#### Building with using Conan to obtain library:
+```
+mkdir build
+cd build
+conan install ..
+cmake .. 
+cmake --build .
+```
+If CMake won't find OpenCV library it will try to use one obtained with Conan. If there is none, the example won't be built.
 #### Examples for makefile generator above:
 - Visual Studio 15 2017 Win64(MSCV and nmake configured for Visual Studio)
 - MinGW Makefiles
