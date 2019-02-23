@@ -19,7 +19,7 @@ cmake .. -G "makefile generator"
 make
 ```
 Examples for makefile generator above:
-- Visual Studio 15 2017 Win64
+- Visual Studio 15 2017 Win64(MSCV and nmake configured for Visual Studio)
 - MinGW Makefiles
 - Unix Makefiles
 	
