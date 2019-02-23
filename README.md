@@ -9,21 +9,22 @@
 3. Build automation program which is able to handle generated make file by CMake
 	(should be added to compiler's package and can be run with terminal or using IDE).
 4. CMake at least version 3.0.
+5. Optional Conan Package Manager.
 
-Added batch file can be used for Windows with MinGW.
-In other case CMake gui program or following commands should be used:
+#### Building
+Building:
 ```
 mkdir build
 cd build
 cmake .. -G "makefile generator" 
-make
+cmake --build .
 ```
-Examples for makefile generator above:
+#### Examples for makefile generator above:
 - Visual Studio 15 2017 Win64(MSCV and nmake configured for Visual Studio)
 - MinGW Makefiles
 - Unix Makefiles
 	
-For non-unix systems make command should be changed to installed make builder like:
+#### For non-unix systems make command should be changed to installed make builder like:
 - mingw32-make
 - nmake
 	
