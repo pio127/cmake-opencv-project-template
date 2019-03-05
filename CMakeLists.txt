@@ -10,15 +10,13 @@ if(OpenCV_FOUND)
     add_executable(test src/main.cpp 
                              src/functions.cpp
                              src/functions.h)
-	target_link_libraries(test ${OpenCV_LIBS})
+    target_link_libraries(test ${OpenCV_LIBS})
 else()
     include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
     conan_basic_setup()
-    if(OpenCV_FOUND)
-        include_directories(include ${OpenCV_INCLUDE_DIRS} src)
+        include_directories(include src)
         add_executable(test src/main.cpp 
                                 src/functions.cpp
                                 src/functions.h)
-        target_link_libraries(test ${OpenCV_LIBS})
-    endif()    
-endif()                      
+        target_link_libraries(test ${CONAN_LIBS})
+endif()    
