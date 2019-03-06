@@ -12,7 +12,7 @@
 5. Optional Conan Package Manager.
 
 ### Building:
-Note: built openCV library must already installed
+Note: built openCV library must be already installed
 ```
 mkdir build
 cd build
